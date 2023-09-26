@@ -1,0 +1,57 @@
+/* Reset some default browser styles */
+body,
+h1,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    background-color: #0074d9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the file input */
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #0074d9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

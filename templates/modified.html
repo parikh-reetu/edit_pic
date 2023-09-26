@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modified Image</title>
+  </head>
+  <body>
+    <h2>Modified Image:</h2>
+    <img
+      src="{{ url_for('static', filename='uploads/' + filename) }}"
+      alt="Modified Image"
+      width="300"
+    />
+    <a href="/" class="button">Home</a>
+  </body>
+</html>
